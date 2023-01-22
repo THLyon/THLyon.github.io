@@ -1,4 +1,4 @@
-/* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
+/*! variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
 :root {
     --black: #171321;
     --dkblue: #0d314b;
@@ -11,7 +11,7 @@
     --mono: "Oxygen mono", monospace;
     --sans: Oxygen, sans-serif;
 }
-/* border box model: https://css-tricks.com/box-sizing/ */
+/*! border box model: https://css-tricks.com/box-sizing/ */
 html {
     box-sizing: border-box;
 }
@@ -20,7 +20,7 @@ html {
 *::after {
     box-sizing: inherit;
 }
-/* generic styles for the page */
+/*! generic styles for the page */
 body {
     padding: 0;
     margin: 0;
@@ -41,7 +41,7 @@ a:hover {
     color: var(--hotmag);
     text-decoration: none;
 }
-/* intro styles */
+/*! intro styles */
 #intro {
     padding-bottom: 10rem;
 }
@@ -68,8 +68,7 @@ a:hover {
     font-size: 4rem;
 }
 
-/*  Contact Section */
-
+/*!  Contact Section */
 #contact {
     width: 400px;
     text-align: center; 
@@ -79,4 +78,54 @@ a:hover {
 
 #contact p:last-child{
     margin-top: 3rem;
+}
+
+/*! NavBar */
+nav{
+    font-family: var(--mono); 
+    font-size: 80%;
+    padding: 1rem;
+}
+
+
+ nav h1 a{
+  font-family: var(--sans);
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center; 
+    align-items: center;
+    gap: 2rem;
+}
+
+/* * putting name on own line */
+nav h1:first-child{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+/* *covers unvisited links, visited links, focused links, and active links */
+nav a{
+    color: var(--white); 
+    text-decoration: none; 
+    display: block;
+}
+
+nav a:hover, nav [class*="fa-"]:hover {
+    color: var(--magenta);
+}
+
+nav [class*="fa-"]{
+    font-size: 150%;
+    color: var(--aqua);
+}
+
+nav h1 [class*="fa-"]{
+    font-size: 100%; 
+    color: var(--aqua);
 }
