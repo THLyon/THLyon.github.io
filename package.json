@@ -1,0 +1,24 @@
+{
+  "name": "tanner-lyon-portfolio",
+  "version": "1.0.0",
+  "description": "Static Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "demoapp": "vite",
+    "dev": "vite serve ./Client",
+    "build": "vite build serve ./Client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/THLyon/Tanner-Lyon-Portfolio.git"
+  },
+  "author": "Tanner Lyon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/THLyon/Tanner-Lyon-Portfolio/issues"
+  },
+  "homepage": "https://github.com/THLyon/Tanner-Lyon-Portfolio#readme",
+  "dependencies": {
+    "vite": "^4.0.4"
+  }
+}
