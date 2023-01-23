@@ -156,7 +156,7 @@ nav h1 [class*="fa-"]{
 
 .button{
     background-color: var(--magenta);
-    color: dkbeige;
+    color: var(--dkbeige);
     padding: 0.5rem; 
     border-radius: 5px;
     font-family: var(--mono);
