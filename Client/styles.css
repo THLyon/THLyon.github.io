@@ -1,12 +1,12 @@
 /*! variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
 :root {
     --black: #0D0D0D;
-    --dkblue: #262626;
-    --plum: #BFB1A4;
+    --ltblack: #262626;
+    --beige: #BFB1A4;
     --hotmag: #E06363;
     --magenta: #8C3E3E;
-    --aqua: #D9D9D9;
-    --white: #BFB1A4;
+    --white: #D9D9D9;
+    --dkbeige: #BFB1A4;
     --font-size: 1.3rem;
     --mono: "Oxygen mono", monospace;
     --sans: Oxygen, sans-serif;
@@ -26,7 +26,7 @@ body {
     margin: 0;
     font-family: var(--sans);
     background-color: var(--black);
-    color: var(--white);
+    color: var(--dkbeige);
     font-size: var(--font-size);
 }
 h1, h2, h3 {
@@ -48,7 +48,7 @@ img{
 
 /*! background color divs */
 .contact-section{
-    background-color: var(--plum);
+    background-color: var(--beige);
 }
 
 .gradient{
@@ -58,7 +58,7 @@ img{
 }
 
 .project-section{
-    background-color: var(--dkblue);
+    background-color: var(--ltblack);
 }
 
 /*! intro styles */
@@ -81,7 +81,7 @@ img{
 .name span {
     font-family: var(--sans);
     font-size: 4rem;
-    color: var(--aqua);
+    color: var(--white);
     display: block;
     font-weight: 300;
 }
@@ -96,7 +96,7 @@ img{
     text-align: center; 
     margin: 0 auto; 
     padding: 3rem 0; 
-    color: var(--dkblue);
+    color: var(--ltblack);
 }
 
 #contact p:last-child{
@@ -134,7 +134,7 @@ nav h1:first-child{
 
 /* *covers unvisited links, visited links, focused links, and active links */
 nav a{
-    color: var(--white); 
+    color: var(--dkbeige); 
     text-decoration: none; 
     display: block;
 }
@@ -145,7 +145,7 @@ nav a:hover, nav [class*="fa-"]:hover {
 
 nav [class*="fa-"]{
     font-size: 150%;
-    color: var(--aqua);
+    color: var(--white);
 }
 
 nav h1 [class*="fa-"]{
@@ -156,7 +156,7 @@ nav h1 [class*="fa-"]{
 
 .button{
     background-color: var(--magenta);
-    color: white;
+    color: dkbeige;
     padding: 0.5rem; 
     border-radius: 5px;
     font-family: var(--mono);
@@ -164,7 +164,7 @@ nav h1 [class*="fa-"]{
 }
 
 .button:hover{
-    color: var(--white);
+    color: var(--dkbeige);
     background-color: var(--hotmag);
 }
 
@@ -212,7 +212,7 @@ footer ul {
      background-color: var(--black);
      padding: 1rem;
      border-radius: 10px;
-     color: var(--white);
+     color: var(--dkbeige);
      font-size: 1rem;
      line-height: 1.5;
      text-align: left;
@@ -232,8 +232,8 @@ footer ul {
 #projects img{
     margin: 2rem 0 4rem 0; 
     padding: 1rem;
-    border-left: 1px solid var(--aqua); 
-    border-top: 1px solid var(--aqua);
+    border-left: 1px solid var(--white); 
+    border-top: 1px solid var(--white);
     border-radius: 25px;
 }
 
@@ -290,7 +290,7 @@ footer ul {
 }
 
 #about h3{
-    color: var(--aqua); 
+    color: var(--white); 
 }
 
 #about h4{
@@ -303,7 +303,7 @@ footer ul {
      background-color: var(--black);
      padding: 1rem;
      border-radius: 10px;
-     color: var(--white);
+     color: var(--dkbeige);
      font-size: 1rem;
      line-height: 1.5;
      text-align: left;
@@ -323,8 +323,8 @@ footer ul {
 #about img{
     margin: 2rem 0 4rem 0; 
     padding: 1rem;
-    border-left: 1px solid var(--aqua); 
-    border-top: 1px solid var(--aqua);
+    border-left: 1px solid var(--white); 
+    border-top: 1px solid var(--white);
     border-radius: 25px;
 }
 
