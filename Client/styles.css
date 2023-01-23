@@ -150,8 +150,9 @@ nav [class*="fa-"]{
 
 nav h1 [class*="fa-"]{
     font-size: 100%; 
-    color: var(--aqua);
+    color: var(--magenta);
 }
+
 
 .button{
     background-color: var(--magenta);
