@@ -1,12 +1,12 @@
 /*! variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
 :root {
-    --black: #171321;
-    --dkblue: #0d314b;
-    --plum: #4b0d49;
-    --hotmag: #ff17e4;
-    --magenta: #e310cb;
-    --aqua: #86fbfb;
-    --white: #f7f8fa;
+    --black: #0D0D0D;
+    --dkblue: #262626;
+    --plum: #BFB1A4;
+    --hotmag: #E06363;
+    --magenta: #8C3E3E;
+    --aqua: #D9D9D9;
+    --white: #BFB1A4;
     --font-size: 1.3rem;
     --mono: "Oxygen mono", monospace;
     --sans: Oxygen, sans-serif;
@@ -52,7 +52,8 @@ img{
 }
 
 .gradient{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,29,9,1) 57%, rgba(0,212,255,1) 100%);
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,29,9,1) 57%, rgba(0,212,255,1) 100%); */
+    background: linear-gradient(90deg, rgba(38,38,38,1) 0%, rgba(121,29,9,1) 57%, rgba(191,177,164,1) 100%);
     height: 2px;
 }
 
@@ -95,6 +96,7 @@ img{
     text-align: center; 
     margin: 0 auto; 
     padding: 3rem 0; 
+    color: var(--dkblue);
 }
 
 #contact p:last-child{
@@ -187,6 +189,7 @@ footer ul {
 
 #projects{
     padding: 4rem 1rem;
+    
 }
 
 #projects h2{
@@ -211,6 +214,7 @@ footer ul {
      color: var(--white);
      font-size: 1rem;
      line-height: 1.5;
+     text-align: left;
 }
 
 #projects ul{
@@ -232,11 +236,16 @@ footer ul {
     border-radius: 25px;
 }
 
-@media(min-width: 550px){
+@media(min-width: 800px){
     article{
         display: grid; 
         grid-template-columns: repeat(10, 1fr);
-        gap: 1rem;
+        
+    }
+
+    #projects{
+        max-width: 1200px;
+        margin: 0 auto;
     }
     #projects img{
         grid-column: 1/6;
@@ -267,6 +276,96 @@ footer ul {
     }
 }
 
+/*! about page */
+
+#about{
+    padding: 4rem 1rem;
+    
+}
+
+#about h2{
+    font-size: 2.5rem;
+    margin-bottom: calc(2.5rem * 1.5);
+}
+
+#about h3{
+    color: var(--aqua); 
+}
+
+#about h4{
+    font-size: 1rem;
+    font-family: var(--mono);
+    margin: 0; 
+}
+
+.black-box{
+     background-color: var(--black);
+     padding: 1rem;
+     border-radius: 10px;
+     color: var(--white);
+     font-size: 1rem;
+     line-height: 1.5;
+     text-align: left;
+}
+
+#about ul{
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    flex-flow: row wrap; 
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+#about img{
+    margin: 2rem 0 4rem 0; 
+    padding: 1rem;
+    border-left: 1px solid var(--aqua); 
+    border-top: 1px solid var(--aqua);
+    border-radius: 25px;
+}
+
+@media(min-width: 800px){
+    article{
+        display: grid; 
+        grid-template-columns: repeat(10, 1fr);
+        
+    }
+
+    #about{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    #about img{
+        grid-column: 1/6;
+        grid-row: 1/2;
+    }
+    .text{
+        order: 2; 
+        text-align: right;
+        grid-column: 5/11;
+        grid-row: 1/2;
+    }
+    #about ul{
+        justify-content: flex-end;
+    }
+    #about .reverse .text {
+        grid-column: 1/7;
+        order: 2; 
+        text-align: left; 
+    }
+
+    #about .reverse img {
+        grid-column: 6/11;
+        grid-row: 1/2;
+    }
+
+    #about .reverse ul{
+        justify-content: flex-start;
+    }
+}
 
 
 /*! Media Queries */
