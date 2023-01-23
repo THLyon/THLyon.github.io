@@ -145,7 +145,7 @@ nav a:hover, nav [class*="fa-"]:hover {
 
 nav [class*="fa-"]{
     font-size: 150%;
-    color: var(--white);
+    color: var(--dkbeige);
 }
 
 nav h1 [class*="fa-"]{
