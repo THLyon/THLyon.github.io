@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/490075aeda.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./styles.css" />
     <title>Tanner Lyon Portfolio</title>
 </head>
@@ -35,34 +41,88 @@
             <ul><a class="button" href=""> Resume </a></ul>
         </ul>
     </nav>
-    <section id="intro">
-        <p class="name">Hi, my name is <span> Tanner H. Lyon.</span></p>
-        <h2>I engineer digital and developer experiences.</h2>
-        <p>I'm a Senior Software Engineer specializing in React, Javascript, Typescript, CSS, Relational and Non-Relational Databases and AWS.</p>
-        <p>Currently, I'm looking for a new role as well as working on my own projects and products.</p>
+    <div class="gradient"></div>
+        <section id="intro">
+            <p class="name">Hi, my name is <span> Tanner H. Lyon.</span></p>
+            <h2>I engineer digital and developer experiences.</h2>
+            <p>I'm a Senior Software Engineer specializing in React, Javascript, Typescript, CSS, Relational and Non-Relational Databases and AWS.</p>
+            <p>Currently, I'm looking for a new role as well as working on my own projects and products.</p>
+        </section>
+    <div class="gradient"></div>
+    <div class="project-section">
+    <section id="projects">
+        <h2> Projects I'm proud of </h2>
+        <article>
+            <div class="text">
+                <h4>Latest Project</h4>
+                <h3> Gimme </h3>
+                <p class="black-box">Description of the project. This should be fairly concise while also describing the key components that you developed or worked on. It can be as long as you need it to be but should at least be a few sentences long. Be sure to include specific links anywhere in the description. A link looks like <a href="https://frontendmasters.github.io/grid-flexbox-v2/">this</a>, and multiple links look <a href="#">like this</a> and <a href="#">like this</a>.</p>
+                <h4>Technologies use include:</h4>
+                <ul>
+                    <li>React: Functional Hooks </li>
+                    <li> React Router </li>
+                    <li> MongoDB </li>
+                    <li> Webpack </li>
+                </ul>
+            </div>
+            <img src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-1.png" alt="Screenshot of the Wall of Wonder." />
+        </article>
+        <article class="reverse">
+            <div class="text">
+            <h3> Solid Structure </h3>
+            <p class="black-box">Description of the project. This should be fairly concise while also describing the key components that you developed or worked on. It can be as long as you need it to be but should at least be a few sentences long. Be sure to include specific links anywhere in the description. A link looks like <a href="https://frontendmasters.github.io/grid-flexbox-v2/">this</a>, and multiple links look <a href="#">like this</a> and <a href="#">like this</a>.</p>
+            <h4>Technologies use include:</h4>
+            <ul>
+                <li>SolidJS </li>
+                <li> Typescript </li>
+                <li> Vite </li>
+                <li> D3.js </li>
+            </ul>
+        </div>
+            <img src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-1.png" alt="Screenshot of the Wall of Wonder." />
+        </article>
+        <article>
+            <div class="text">
+                <h3> Mission Tuition </h3>
+                <p class="black-box">Description of the project. This should be fairly concise while also describing the key components that you developed or worked on. It can be as long as you need it to be but should at least be a few sentences long. Be sure to include specific links anywhere in the description. A link looks like <a href="https://frontendmasters.github.io/grid-flexbox-v2/">this</a>, and multiple links look <a href="#">like this</a> and <a href="#">like this</a>.</p>
+                <h4>Technologies use include:</h4>
+                <ul>
+                    <li>React: Functional Hooks </li>
+                    <li> React Router </li>
+                    <li> postgreSQL </li>
+                    <li> Webpack </li>
+                </ul>
+            </div>
+            <img src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-1.png" alt="Screenshot of the Wall of Wonder." />
+        </article>
     </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>I'm always interested in hearing about career opportunites, product collaboration, and networking opportunities.</p>
-       <p><a href="mailto:tannerhlyon@gmail.com"> Email Me</a></p>
-    </section>
-    <footer id="footer">
-        <h4>Tanner H. Lyon &middot; Senior Software Engineer</h4>
-        <ul>
-            <a href="https://www.linkedin.com/in/tannerhlyon/">
-                <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
-                <span class="sr-only">LinkedIn</span>
-            </a>
-            <a href="https://github.com/THLyon">
-                <span class="fa-brands fa-square-github" aria-hidden="true"></span>
-                <span class="sr-only">Github</span>
-            </a>
-                <a href="mailto:tannerhlyon@gmail.com"> 
-                   <span class="fas fa-envelope" aria-hidden="true"></span> 
-                   <span class="sr-only">Email Me</span>
+</div>
+    <div class="gradient"></div>
+        <div class="contact-section">
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>I'm always interested in hearing about career opportunites, product collaboration, and networking opportunities.</p>
+            <p><a href="mailto:tannerhlyon@gmail.com" class="button"> Email Me</a></p>
+            </section>
+        </div>
+    <div class="gradient"></div>
+        <footer id="footer">
+            <h4>Tanner H. Lyon &middot; Senior Software Engineer</h4>
+            <ul>
+                <a href="https://www.linkedin.com/in/tannerhlyon/">
+                    <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+                    <span class="sr-only">LinkedIn</span>
                 </a>
-        </ul>
-        <p><small>&copy; 2021 Tanner H. Lyon. All rights reserved.</small></p>
-    </footer>
+                <a href="https://github.com/THLyon">
+                    <span class="fa-brands fa-square-github" aria-hidden="true"></span>
+                    <span class="sr-only">Github</span>
+                </a>
+                    <a href="mailto:tannerhlyon@gmail.com"> 
+                    <span class="fas fa-envelope" aria-hidden="true"></span> 
+                    <span class="sr-only">Email Me</span>
+                    </a>
+            </ul>
+            <p><small>&copy; 2021 Tanner H. Lyon. All rights reserved.</small></p>
+        </footer>
 </body>
 </html>
