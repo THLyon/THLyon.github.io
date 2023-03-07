@@ -24,5 +24,6 @@ export default defineConfig({
     rollupOptions: {
       external: ['chrome'],
     },
+    base: '/Tanner-Lyon-Portfolio/',
   },
 });
