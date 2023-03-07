@@ -13,13 +13,13 @@ export default defineConfig({
       name: 'MyLib',
       fileName: (format) => `my-lib.${format}.js`
     },
-    // extensions: [
-    //   ".js",
-    //   ".jsx",
-    //   ".ts",
-    //   ".tsx",
-    //   ".json"
-    // ],
+    extensions: [
+      ".js",
+      ".jsx",
+      ".ts",
+      ".tsx",
+      ".json"
+    ],
     input: './Client/index.html',
     outDir: path.join(__dirname, './extension/dist'),
     output: {
