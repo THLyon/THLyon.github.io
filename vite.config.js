@@ -8,18 +8,18 @@ export default defineConfig({
   base: '/Tanner-Lyon-Portfolio/',
   build: {
     lib: {
-      // entry: path.resolve(__dirname, './Client/index.html'),
-      entry: path.resolve(__dirname, 'lib/main.js'),
+      entry: path.resolve(__dirname, 'Client/index.html'),
+      // entry: path.resolve(__dirname, 'lib/main.js'),
       name: 'MyLib',
       fileName: (format) => `my-lib.${format}.js`
     },
-    extensions: [
-      ".js",
-      ".jsx",
-      ".ts",
-      ".tsx",
-      ".json"
-    ],
+    // extensions: [
+    //   ".js",
+    //   ".jsx",
+    //   ".ts",
+    //   ".tsx",
+    //   ".json"
+    // ],
     input: './Client/index.html',
     outDir: path.join(__dirname, './extension/dist'),
     output: {
