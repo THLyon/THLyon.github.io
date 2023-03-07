@@ -14,5 +14,9 @@
  <!-- "build": "vite build serve ./Client" -->
 
 <!-- <meta http-equiv="refresh" content="0; url=https://repo.github.io/Client/index.html""> -->
-<!-- 
-url:${{ steps.deployment.outputs.page_url }} -->
+<!-- lib: {
+      entry: path.resolve(__dirname, 'Client/index.html'),
+      // entry: path.resolve(__dirname, 'lib/main.js'),
+      name: 'MyLib',
+      fileName: (format) => `my-lib.${format}.js`
+    }, -->
