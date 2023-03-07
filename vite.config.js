@@ -5,6 +5,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [solidPlugin({ dev: true })],
+  base: '/Tanner-Lyon-Portfolio/',
   build: {
     extensions: [
       ".js",
@@ -24,6 +25,5 @@ export default defineConfig({
     rollupOptions: {
       external: ['chrome'],
     },
-    base: '/Tanner-Lyon-Portfolio/',
   },
 });
