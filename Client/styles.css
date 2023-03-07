@@ -236,7 +236,13 @@ footer ul {
     border-top: 1px solid var(--white);
     border-radius: 25px;
 }
-
+#projects .reverse video{
+    margin: 2rem 0 4rem 0; 
+    padding: 1rem;
+    border-left: 1px solid var(--white); 
+    border-top: 1px solid var(--white);
+    border-radius: 25px;
+}
 @media(min-width: 800px){
     article{
         display: grid; 
