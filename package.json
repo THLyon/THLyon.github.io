@@ -2,7 +2,7 @@
   "name": "tanner-lyon-portfolio",
   "version": "1.0.0",
   "description": "Static Portfolio Website",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "demoapp": "vite",
     "dev": "vite serve ./Client",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/THLyon/Tanner-Lyon-Portfolio#readme",
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "vite": "^4.0.4"
   }
 }
