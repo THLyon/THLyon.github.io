@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/THLyon/Tanner-Lyon-Portfolio/issues"
   },
-  "homepage": "https://github.com/THLyon/Tanner-Lyon-Portfolio#readme",
+  "homepage": "https://github.com/THLyon/Tanner-Lyon-Portfolio",
   "dependencies": {
     "gh-pages": "^5.0.0",
     "vite": "^4.0.4"
