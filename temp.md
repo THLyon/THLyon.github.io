@@ -13,3 +13,4 @@
 
  <!-- "build": "vite build serve ./Client" -->
 
+<!-- <meta http-equiv="refresh" content="0; url=https://repo.github.io/Client/index.html""> -->
