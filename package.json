@@ -6,7 +6,7 @@
   "scripts": {
     "demoapp": "vite",
     "dev": "vite serve ./Client",
-    "build": "vite build serve ./Client"
+    "build": "vite build"
   },
   "repository": {
     "type": "git",

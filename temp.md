@@ -9,3 +9,6 @@
 <!-- //package -->
 
  <!-- "homepage": "https://github.com/THLyon/Tanner-Lyon-Portfolio#readme", -->
+
+
+ <!-- "build": "vite build serve ./Client" -->
