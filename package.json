@@ -8,7 +8,7 @@
     "dev": "vite serve ./Client",
     "build": "vite build",
     "predeploy": "npm run build",
-    "preview": "vite preview",
+    "preview": "vite preview --port 8080",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
