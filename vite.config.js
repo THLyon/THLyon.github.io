@@ -4,14 +4,15 @@ import path from 'path';
 // import { chromeExtension } from 'vite-plugin-chrome-extension';
 
 export default defineConfig({
-  // plugins: [solidPlugin({ dev: true })],
+  // plugins: [html()],
   base: '/Tanner-Lyon-Portfolio/',
-  // build: {
-  //   lib: {
-  //     entry: path.resolve(__dirname, './Client/index.html'),
-  //     name: 'MyLib',
-  //     fileName: (format) => `my-lib.${format}.js`
-  //   },
+  build: {
+    lib: {
+      // entry: path.resolve(__dirname, './Client/index.html'),
+      entry: path.resolve(__dirname, 'lib/main.js'),
+      name: 'MyLib',
+      fileName: (format) => `my-lib.${format}.js`
+    },
     extensions: [
       ".js",
       ".jsx",
