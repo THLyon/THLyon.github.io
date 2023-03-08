@@ -1,5 +1,5 @@
 {
-  "name": "Tanner-Lyon-Portfolio",
+  "name": "THLyon.github.io",
   "version": "1.0.0",
   "description": "Static Portfolio Website",
   "main": "index.html",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/THLyon/Tanner-Lyon-Portfolio.git"
+    "url": "git+https://github.com/THLyon/THLyon.github.io.git"
   },
   "author": "Tanner Lyon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/THLyon/Tanner-Lyon-Portfolio/issues"
+    "url": "https://github.com/THLyon/THLyon.github.io/issues"
   },
-  "homepage": "https://github.com/THLyon/Tanner-Lyon-Portfolio/Client/index.html",
+  "homepage": "https://github.com/THLyon/THLyon.github.io/Client/index.html",
   "dependencies": {
     "gh-pages": "^5.0.0",
     "vite": "^4.0.4",
