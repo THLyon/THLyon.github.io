@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-# name: Deploy static content to Pages
+name: Deploy static content to Pages
 - name: GitHub Pages action
   uses: peaceiris/actions-gh-pages@v3.9.2
 on:
@@ -24,26 +24,6 @@ concurrency:
 jobs:
   # Single deploy job since we're just deploying
   deploy:
-  runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build
-        run: npm run build
-        env:
-          VITE_PUBLIC_KEY: ${{ secrets.VITE_PUBLIC_KEY }}
-          VITE_SERVICE_ID: ${{ secrets.VITE_SERVICE_ID }}
-          VITE_TEMPLATE_ID: ${{ secrets.VITE_TEMPLATE_ID }}
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: gh-pages
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
