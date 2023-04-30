@@ -23,6 +23,7 @@
   "homepage": "https://github.com/THLyon/Tanner-Lyon-Portfolio/Client/index.html",
   "dependencies": {
     "gh-pages": "^5.0.0",
+    "pdf-parse": "^1.1.1",
     "vite": "^4.0.4",
     "vite-plugin-html": "^3.2.0"
   }
